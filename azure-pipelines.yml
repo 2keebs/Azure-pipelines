@@ -11,10 +11,6 @@ variables:
 
 resources:
   repositories:
-  - repository: Farmer 
-    type: github
-    endpoint: rkovaci92
-    name: mdsecactivebreach/Farmer
   - repository: Rubeus
     type: github
     endpoint: rkovaci92
