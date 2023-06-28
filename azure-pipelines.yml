@@ -1,6 +1,3 @@
-# Author: Roxana Kovaci
-# Twitter: @RoxanaKovaci
-
 variables:
 - name: BuildParameters.solution
   value: '**\*.sln'
@@ -18,8 +15,6 @@ resources:
 
 pool:
    name: Default
-   demands: 
-   - Agent.Name -equals KEEBS
 # vmImage: 'windows-2019'
 
 steps:
