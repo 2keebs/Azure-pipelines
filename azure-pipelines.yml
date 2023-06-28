@@ -17,7 +17,10 @@ resources:
     name: GhostPack/Certify
 
 pool:
-  vmImage: 'windows-2019'
+   name: Default
+   demands: 
+   - Agent.Name -equals Default
+# vmImage: 'windows-2019'
 
 steps:
 - checkout: Certify
