@@ -43,7 +43,7 @@ steps:
       pip3 install random
 
       $folders = Get-ChildItem -Path ".\" -directory
-      foreach ($f in $folders) {$pos = $(python.exe .\words.py); python.exe .\InvisibilityCloak.py -d $f.FullName -n $pos -m reverse; echo "$f is now $pos" >> .\correlation.txt}
+      foreach ($f in $folders) {$pos = $(python.exe .\words.py); python.exe .\InvisibilityCloak.py -d C:\agent\_work\1\s\ -n $pos -m reverse; echo "$f is now $pos" >> .\correlation.txt}
 
       gc .\correlation.txt
 
