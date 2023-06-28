@@ -19,7 +19,7 @@ resources:
 pool:
    name: Default
    demands: 
-   - Agent.Name -equals Default
+   - Agent.Name -equals KEEBS
 # vmImage: 'windows-2019'
 
 steps:
