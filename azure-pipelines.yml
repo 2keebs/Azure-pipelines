@@ -13,7 +13,7 @@ resources:
   repositories:
   - repository: Certify 
     type: github
-    endpoint: rkovaci92
+    endpoint: 2keebs
     name: GhostPack/Certify
 
 pool:
